@@ -1,0 +1,71 @@
+body{
+    background-color:lightgray;
+        }
+        .main{
+    
+            width:75%;
+    margin:0 auto;
+    margin-top:20px;
+    padding:20px;
+    border:1px solid lightgray;
+    background-color:white;
+    
+        }
+        .container{
+    
+            display:flex;
+            margin-bottom:20px;
+            
+        }
+        .item{
+    
+            width:90%;
+            text-align:center;
+        }
+        .item h1{
+            font-family:arial;
+                color:gray;
+    
+        }
+        .item1{
+          
+            width:10%;
+            text-align:right;
+        }
+        .item1 img{
+          
+          width:100px;
+          height:130px;
+      }
+      .item2{
+    
+    width:33%;
+    
+    }
+    .item3{
+    
+    width:33%;
+    text-align:center;
+    
+    }
+    .item4{
+    
+    width:33%;
+    text-align:right;
+    
+    }
+    .item2, h3, p {
+        font-family: arial;
+        color: gray;
+        font-size: 18PX;
+    }
+    .item3, h3, p {
+        font-family: arial;
+        color: gray;
+        font-size: 18PX;
+    }
+    .item4, h3, p {
+        font-family: arial;
+        color: gray;
+        font-size: 18PX;
+    }

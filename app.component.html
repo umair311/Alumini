@@ -1,0 +1,142 @@
+<div class="nav">
+  <div class="set">
+
+  <img src="assets/logo1.png" width="100px" height="100px">
+
+  
+
+</div>
+<div class="nav1">
+  <div class="links">
+    <ul>
+    
+    
+    <li><a [routerLink]="['/app']">Home</a></li>
+    
+    <li><a [routerLink]="['/teacher']">Teachers</a></li>
+    <li><a [routerLink]="['/student']">Alumini</a></li>
+    <li><a [routerLink]="['/profile']">Profile</a></li>
+    <li><a [routerLink]="['/event']">Events</a></li>
+    <li><a [routerLink]="['/signup']">Signup</a></li>
+    </ul>
+    </div>
+
+</div>
+</div>
+<div class="banner">
+  <img src="assets/Alumni.jpg" width="100%" height="400px">
+</div>
+<div class="intro">
+ <h5>{{head}}</h5> 
+ <p>{{detail}}</p>
+</div>
+
+<div class="section1">
+
+<div class="head">
+  <h1>{{thead}}</h1>
+
+</div>
+<div class="container" >
+
+<div class="content" *ngFor="let t of teacher">
+
+<img src="assets/img1.jpg" alt="">
+<h4>{{t.name}}</h4>
+<p>{{t.res}}</p>
+
+</div>
+
+
+
+  
+
+
+
+</div>
+
+</div>
+<div class="alltecher">
+<div class="button"> <a [routerLink]="['/teacher']"> View More</a></div>
+ 
+</div>
+
+
+<div class="section1">
+
+  <div class="head">
+    <h1>{{ahead}}</h1>
+  
+  </div>
+  <div class="container" >
+  
+  <div class="content" *ngFor="let a of alumini">
+  
+  <img src="assets/img1.jpg" alt="">
+  <h4>{{a.name}}</h4>
+  <p>{{a.res}}</p>
+  
+  </div>
+  
+  
+  
+    
+  
+  
+  
+  </div>
+  
+  </div>
+  <div class="alltecher">
+  <div class="button"> <a href="#"> View More</a></div>
+   
+  </div>
+
+<div class="head">
+    <h1>{{event}}</h1>
+  
+  </div>
+  <div style="display: flex; ">
+<div>
+  <img src="assets/logo.jpg" alt="" width="100px" height="80px">
+</div>
+<div>
+  <p>
+    NUST SEECS Alumni Association is a token of love and care for our own Alma mater. It provides all alumni a dedicated platform for sharing with your former faculty and successive generations of NUST SEECS students your achievements, memories, views and passions. This association also aims to knit SEECS Alma meter into fraternity of life-long friends and companions.
+  </p>
+</div>
+  </div>
+
+  <div class="section1">
+
+    <div class="head">
+      <h1>Gallery</h1>
+    
+    </div>
+    <div class="container" >
+    
+    <div class="content" *ngFor="let t of teacher">
+    
+    <img src="assets/img1.jpg" alt="">
+    <h4>{{t.name}}</h4>
+    <p>{{t.res}}</p>
+    
+    </div>
+    
+    
+    
+      
+    
+    
+    
+    </div>
+    
+    </div>
+    <div class="alltecher">
+    <div class="button"> <a href="#"> View More</a></div>
+     
+    </div>
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+    <div class="footer"><p>&copy;Copyright By Muhammad Umair Tariq</p></div>

@@ -1,0 +1,164 @@
+.nav{
+    height:100px;
+    background-color: blue;
+    display:flex;
+    position: fixed;
+    width:100%;
+    margin-top: -10px;
+}
+.logo{
+    width:20%;
+}
+.logo img{
+    height:180px;
+    width:100px;
+}
+.nav1{
+    align-items: right;
+    width:100%;
+    margin-top: 20px; 
+}
+.links{
+    display:inline;
+  
+    text-align:right;
+    padding-top:5px;
+}
+.links ul li{
+    list-style-type:none;
+    display:inline;
+    margin-right:10px;
+}
+.links ul li a{
+text-decoration:none;
+color:white;
+font-family:arial;
+margin-left: 10px;
+font-size: 18px;
+   
+}
+.links ul li a:hover{
+
+    color:red;
+
+}
+.banner{
+   padding-top: 90px;
+    width:100%;
+    height:400px;
+}
+.intro{
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+    
+    
+    }
+    .intro h5{
+        padding-top:20px;
+        margin-top:0px;
+        color:gray;
+        font-size:30px;
+        font-family:arial;
+        letter-spacing:2px;
+    }
+    
+    .intro p{
+        margin-top:0px;
+        color:gray;
+        font-size:14px;
+        font-family:arial;
+        letter-spacing:2px;
+    }
+    .section1{
+        width:90%;
+        margin:0 auto;
+    }
+    .head h1{
+        margin-top:60px;
+        font-family:arial;
+        font-size:25px;
+       text-align:center;
+       color:red;
+    }
+    .container{
+    
+        display:flex;
+       width:80%;
+      
+        
+    }
+    .content{
+    
+        border:1px solid lightgray;
+    text-align:center;
+    margin-right:10px;
+    
+    
+    }
+    .content img{
+        flex:1;
+    width:400px;
+    height:350px;
+    margin:3px;
+    
+    }
+    .content h4 {
+        font-family: arial;
+        color: gray;
+        font-size: 20px;
+    }
+    .content h5 {
+        font-family: arial;
+        color: gray;
+        margin-top: 0px;
+        font-size: 18;
+    }
+    .content p{
+        font-family:arial;
+        color:gray;
+        font-size: 15;
+        margin-top: 0px;
+    }
+    .alltecher
+{
+    text-align:center;
+  margin-top:20px;
+    
+   text-align:center;
+  
+   
+
+}
+.alltecher a{
+
+    color: cornsilk;
+ 
+    font-size:18px;
+    text-decoration:none;
+    font-family:arial;
+    margin-left: 25px;
+}
+.button{
+   
+    background-color: blue;
+    width:100px;
+    height: 50px;
+    margin-left: 600px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    margin-top: 5px;
+    background-color:lightgray;
+    height:100px;
+    padding-top:50px;
+}
+.footer p{
+text-align:center;
+font-family:arial;
+letter-spacing:2px;
+color:red;
+font-size:20px;
+
+}
